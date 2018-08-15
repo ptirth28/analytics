@@ -1,0 +1,10 @@
+(x1=c('a','b','c'))
+typeof(a)
+class(a)
+(x2=c(T,F))
+class (x2)
+typeof(x2)
+x3=c(1,2,3,4,'hii',T)
+x3
+class(x3)
+mean(x3)

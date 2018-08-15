@@ -1,0 +1,14 @@
+x=seq(1,200,3)
+x
+length(x)
+x[3:10]
+x[:10]
+x[seq(1,length(x),by=3)]
+x
+x[seq(1,300,by=5)]
+x=seq(1,100)
+x
+x[seq(1,length(x),by=4)]
+x[-1]
+x[-1:-10]
+x[-c(1,11,2,3,4)]
