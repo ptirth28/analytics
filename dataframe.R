@@ -49,3 +49,4 @@ aggregate(df$marks1,by=list(df$gender),sum)
 aggregate(cbind(df$marks1,df$marks2),by=list(df$gender),mean)
 aggregate(cbind(marks1,marks2) ~ gender,data = df, FUN = mean)#better than upper one
 aggregate(marks1 ~ gender,data=df, FUN = mean)
+#day one completed with success.
