@@ -1,5 +1,5 @@
 #import from csv
-
+#analysis of csv file
 df1 = read.csv('pdpu.csv')
 df1
 head(df1)
