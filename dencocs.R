@@ -7,7 +7,7 @@ str(sales1)
 #read file : Method2
 sales2 = read.csv(file.choose())
 str(sales2)
-
+head(sales2)
 #read file: Method3
 #install.packages('gsheet')
 library(gsheet)
@@ -25,7 +25,7 @@ str(denco2)
 #names(sales1)
 
 # whichever you read the data, store it in sales object
-sales = sales1  # keeping a backup
+sales = sales2  # keeping a backup
 str(sales)
 class(sales)
 str(sales)
@@ -34,9 +34,11 @@ summary(sales)
 
 str(sales)
 dim(sales) #dimensios of DF rows & colnum
+
+#unique command
 unique(sales$custname)
-length(unique(sales$custname))
-length(unique(sales$region ))
+length(unique(sales$custname)) #1268 unique custname
+length(unique(sales$region ))  #6 unique sales regions
 
 # aggregation
 aggregate(sales$revenue , by=list(sales$custname), FUN=sum)
