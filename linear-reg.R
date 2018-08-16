@@ -20,3 +20,8 @@ summary(fit)
 
 fit2 = lm(mpg ~ . , data = mtcars)
 summary(fit2)
+
+
+#**************************************************************
+resid(fit)
+fitted(fit)
