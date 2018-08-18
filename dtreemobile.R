@@ -5,7 +5,7 @@ age = ceiling(runif(1000,22,30))
 course = sample(x=c('Phd','MBA','BBA'),size=1000,replace = T,prob = c(.3,.4,.3))
 student = data.frame(buy,gender,married,age,course)
 head(student)
-
+student
 library(rpart) #doing classification
 library(rpart.plot)   # visulising the tree
 

@@ -33,6 +33,7 @@ str(sales)
 summary(sales)
 
 str(sales)
+
 dim(sales) #dimensios of DF rows & colnum
 
 #unique command
